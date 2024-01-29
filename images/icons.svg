@@ -157,5 +157,8 @@
 <symbol id="checkmark-checked" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.28" d="M26 8l-14 16-6-6"></path>
 </symbol>
+<symbol id="hamburger-menu" viewBox="0 0 32 32">
+<path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+</symbol>
 </defs>
 </svg>
