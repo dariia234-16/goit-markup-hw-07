@@ -43,6 +43,7 @@ img {
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  justify-content: space-between;
 }
 
 .main-navigation-container {
@@ -58,7 +59,6 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
-  margin-right: 249px;
 }
 
 .part-of-logo {
@@ -830,6 +830,7 @@ img {
   justify-content: center;
   align-items: center;
   max-width: 1158px;
+  flex-wrap: wrap;
 }
 
 .customers-list {
@@ -1672,6 +1673,7 @@ img {
   font-style: normal;
   margin-top: 284px;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .telephone-mobile-menu {
@@ -1693,6 +1695,9 @@ img {
 
 .hamburger-menu-social-media-list {
   display: flex;
+  flex-direction: row;
   gap: 56px;
   align-items: center;
+  padding: 0;
+  flex-wrap: wrap;
 }
