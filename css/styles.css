@@ -58,7 +58,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
-  margin-right: 76px;
+  margin-right: 249px;
 }
 
 .part-of-logo {
@@ -200,9 +200,17 @@ img {
   .hamburger-menu-icon {
     display: none;
   }
+
+  .logo {
+    margin-right: 76px;
+  }
 }
 
 @media screen and (width >= 1158px) {
+  .logo {
+    margin-right: 76px;
+  }
+
   .address-list {
     list-style-type: none;
     display: flex;
@@ -920,6 +928,8 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-bottom: 16px;
+  margin-top: 72px;
+  margin-left: 57px;
 }
 
 .social-media-link {
@@ -981,6 +991,7 @@ img {
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
+  margin-left: 70px;
 }
 
 .footer-form {
@@ -996,6 +1007,7 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-top: 72px;
+  margin-left: 165px;
 }
 
 .footer-subscription-input {
@@ -1076,6 +1088,17 @@ img {
 
   .footer-form-main-text {
     margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-social-media-paragraph {
+    margin-top: 72px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .logo-footer {
+    margin-left: 0;
   }
 }
 
@@ -1106,7 +1129,7 @@ img {
 
   .logo-footer {
     margin-bottom: 16px;
-    display: inline-block;
+    margin-left: 0;
   }
 
   .footer-form {
@@ -1125,6 +1148,7 @@ img {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     margin-top: 0;
+    margin-left: 0;
   }
 
   .footer-subscription-input {
@@ -1149,6 +1173,11 @@ img {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+  }
+
+  .footer-social-media-paragraph {
+    margin-top: 0;
+    margin-left: 0;
   }
 }
 /* ./PORTOFOLIO.HTML */
