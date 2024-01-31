@@ -970,7 +970,6 @@ img {
 
 .logo-and-description {
   width: 264px;
-  margin-right: 120px;
 }
 
 .footer-social-media-list {
@@ -996,6 +995,7 @@ img {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  margin-top: 72px;
 }
 
 .footer-subscription-input {
@@ -1032,6 +1032,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   max-width: 165px;
+  margin: 0 auto;
 }
 
 .footer-subscription-button:hover,
@@ -1071,6 +1072,10 @@ img {
 
   .footer-form {
     flex-direction: row;
+  }
+
+  .footer-form-main-text {
+    margin-top: 0;
   }
 }
 
@@ -1119,6 +1124,7 @@ img {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    margin-top: 0;
   }
 
   .footer-subscription-input {
