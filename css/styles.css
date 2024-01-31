@@ -204,6 +204,13 @@ img {
   .logo {
     margin-right: 76px;
   }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+  }
 }
 
 @media screen and (width >= 1158px) {
