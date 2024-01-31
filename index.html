@@ -27,9 +27,13 @@
             >Web<span class="part-of-logo">Studio</span>
           </a>
           <!-- hamburger menu -->
-          <svg width="32" height="22" class="hamburger-menu-icon" .js-open-menu">
-            <use href="./images/icons.svg#hamburger-menu"></use>
-          </svg>
+          <button class="hamburger-menu-icon" type="button" .js-open-menu>
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#hamburger-menu"></use>
+            </svg>
+          </button>
+          <!-- navigation bar -->
+          <div class="nav-and-address"></div>
           <!-- studio, portofolio, contacts -->
           <ul class="navigation-list list">
             <li>
@@ -603,6 +607,29 @@
           <button type="submit" class="modal-window-button">Send</button>
         </form>
       </div>
+    </div>
+    <!-- hamburger menu -->
+    <div class="hamburger-menu-container is-open" js-menu-container>
+      <button type="button" class="mobile-menu-close" js-close-menu>
+        <svg width="22" height="22">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <nav class="nav-hamburger-menu">
+        <ul class="list hamburger-menu-nav-list">
+          <li class="hamburger-menu-nav-item">
+            <a class="hamburger-menu-nav-link" href="./index.html">Studio</a>
+          </li>
+          <li class="hamburger-menu-nav-item">
+            <a class="hamburger-menu-nav-link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="hamburger-menu-nav-item">
+            <a class="hamburger-menu-nav-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <script src="./js/modal.js"></script>
   </body>
