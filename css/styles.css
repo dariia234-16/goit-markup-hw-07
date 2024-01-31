@@ -1000,7 +1000,7 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
   margin-top: 72px;
-  text-align: center;
+  margin-left: 60px;
 }
 
 .footer-social-media-list {
@@ -1028,7 +1028,7 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-top: 72px;
-  text-align: center;
+  margin-left: 110px;
 }
 
 .footer-subscription-input {
