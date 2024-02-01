@@ -223,7 +223,7 @@ img {
 
 @media screen and (width >= 1158px) {
   .logo {
-    margin-right: 76px;
+    margin-right: 72px;
   }
 
   .address-list {
@@ -232,6 +232,7 @@ img {
     gap: 40px;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
 
   .navigation-list {
@@ -252,17 +253,23 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    max-width: 1158px;
+    width: 100%;
+    padding: 0;
   }
 
   .main-navigation-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    max-width: 492px;
   }
 
   .hamburger-menu-container {
     display: none;
+  }
+
+  .address-link {
+    min-width: 161px;
   }
 }
 
