@@ -40,15 +40,14 @@ img {
 
 .header-container {
   min-height: 72px;
-  display: flex;
-  align-items: center;
   flex-shrink: 0;
-  justify-content: space-between;
 }
 
 .main-navigation-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .logo {
@@ -171,12 +170,6 @@ img {
   flex-shrink: 0;
 }
 
-.main-navigation-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .address-list {
   display: none;
 }
@@ -220,6 +213,12 @@ img {
   .hamburger-menu-container {
     display: none;
   }
+
+  .main-navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (width >= 1158px) {
@@ -231,6 +230,8 @@ img {
     list-style-type: none;
     display: flex;
     gap: 40px;
+    align-items: center;
+    justify-content: center;
   }
 
   .navigation-list {
@@ -257,6 +258,7 @@ img {
   .main-navigation-container {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
   }
 
   .hamburger-menu-container {
