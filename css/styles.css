@@ -827,6 +827,7 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .customers {
@@ -845,11 +846,12 @@ img {
 .customers-list {
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
+  padding: 0;
   align-items: center;
   column-gap: 16px;
   row-gap: 72px;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .customer-container {
